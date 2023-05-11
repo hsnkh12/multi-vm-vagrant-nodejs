@@ -4,7 +4,7 @@ Vagrant is a tool for creating and managing virtual environments. It allows you 
 Using Vagrant with Node.js, you can easily set up and manage your development environment. With Vagrant's infrastructure as code (IaC) approach, you can define your environment in a simple text file (Vagrantfile) and automate the process of creating and configuring your virtual machine. This ensures consistency across your team's development environments, making it easier to collaborate and work on the same codebase.
 
 ## Infrastructure
-The system consists of three main components. nodeJS server, nginx, and mysql database. Each one of those components is in a seperated ubuntu virtual machine with it's own environment. The nginx acts as a reversed proxy to the nodeJS server (it recieves requests from the client, and passes it to the nodeJS server), and the nodeJS server communicates with mysql database. Vagrant is reposnsible to automate this infrastructure.
+The system consists of three main components. nodeJS server, nginx, and mysql database. Each one of those components is in a seperated ubuntu virtual machine with it's own environment. The nginx acts as a reversed proxy to the nodeJS server (it recieves requests from the client, and passes it to the nodeJS server), and the nodeJS server communicates with mysql database. Vagrant is reposnsible to automate the creation of this infrastructure.
 
 
 ## How to use 
