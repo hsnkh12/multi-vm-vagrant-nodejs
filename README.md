@@ -1,0 +1,4 @@
+# Multi-machine nodeJS infrastructure as a code
+
+Vagrant is a tool for creating and managing virtual environments. It allows you to define and configure your development environment as code, and then spin up a virtual machine with all the required software and dependencies installed. Node.js, on the other hand, is a popular JavaScript runtime environment used for building server-side applications.
+Using Vagrant with Node.js, you can easily set up and manage your development environment. With Vagrant's infrastructure as code (IaC) approach, you can define your environment in a simple text file (Vagrantfile) and automate the process of creating and configuring your virtual machine. This ensures consistency across your team's development environments, making it easier to collaborate and work on the same codebase.
